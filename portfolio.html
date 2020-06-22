@@ -205,10 +205,11 @@
     <!--Подвал-->
     <footer class="footer">
       <div class="footer__container">
-        <!-------------------------------------Адресс-->
+        <!--  Адресс -->
+
         <div class="footer-address-cont">
           <a class="logo footer__logo" href="./index.html"
-            ><span>Web</span> Studio
+            >Web <span class="logo__studio logo__studio--inverse">Studio</span>
           </a>
           <address class="address">
             г. Киев, пр-т Леси Украинки, 26
@@ -222,33 +223,54 @@
             </a>
           </address>
         </div>
+
         <!--Список ссылок-->
+
         <div class="footer-soc-links">
           <p class="footer-soc-links__title">ПРИСОЕДИНЯЙТЕСЬ</p>
-          <ul class="footer-soc-links">
-            <li
-              class="footer-soc-links__item footer-soc-links__item--instagram"
-            >
-              <a href="" aria-label="Ссылка на Facebook"></a>
+          <ul class="soc-links soc-links--footer">
+            <li class="soc-links__item soc-links__item--footer">
+              <a class="soc-link" href="" aria-label="Ссылка на Instagram">
+                <svg class="soc-links__icon soc-links__icon--footer">
+                  <use href="./images/sprite.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-soc-links__item footer-soc-links__item--twitter">
-              <a href="" aria-label="Ссылка на Twitter"></a>
+            <li class="soc-links__item soc-links__item--footer">
+              <a class="soc-link" href="" aria-label="Ссылка на Twitter">
+                <svg class="soc-links__icon soc-links__icon--footer">
+                  <use href="./images/sprite.svg#twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-soc-links__item footer-soc-links__item--facebook">
-              <a href="" aria-label="Ссылка на Facebook"></a>
+            <li class="soc-links__item soc-links__item--footer">
+              <a class="soc-link" href="" aria-label="Ссылка на Facebook">
+                <svg class="soc-links__icon soc-links__icon--footer">
+                  <use href="./images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-soc-links__item footer-soc-links__item--linkedin">
-              <a href="" aria-label="Ссылка на LinkedIn"></a>
+            <li class="soc-links__item soc-links__item--footer">
+              <a class="soc-link" href="" aria-label="Ссылка на LinkedIn">
+                <svg class="soc-links__icon soc-links__icon--footer">
+                  <use href="./images/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
-        <!--Подписка-->
+
+        <!-- Подписка -->
+
         <div class="footer-folow">
           <p class="footer-folow__title">Подпишитесь на рассылку</p>
           <div class="footer-folow__cont">
             <p class="email-area">E-mail</p>
             <button type="button" class="footer-folow__button">
               Подписаться
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
             </button>
           </div>
         </div>
