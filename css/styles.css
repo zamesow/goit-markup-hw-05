@@ -838,5 +838,5 @@ ul {
 }
 
 .filter__link:hover .filter__sub-img {
-  transform: translateY(-294px);
+  transform: translateY(-100%);
 }
